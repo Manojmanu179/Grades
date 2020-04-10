@@ -6,10 +6,11 @@ int main()
      printf ("Enter the marks of the student from 0 to 100\n");
      int marks=0;
      scanf("%d",&marks);
+     // To check the condition to allot grades on the marks obtained
      if(marks>=0 && marks <=100)
         {
             if(marks >=85 && marks<=100)
-             printf ("GRADE A");
+             printf ("GRADE A");             //printing grades
             else if(marks >=70 && marks<=84)
               printf ("GRADE B");
             else if(marks >=55 && marks<=69)
